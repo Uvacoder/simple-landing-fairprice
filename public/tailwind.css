@@ -1,3 +1,27 @@
+/* These styles will all be purged */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* These styles will be purged */
+@layer base {
+	/* Typography */
+	/* @font-face {
+    font-family: Proxima Nova;
+    font-weight: 400;
+    src: url(/fonts/proxima-nova/400-regular.woff) format("woff");
+  }
+  @font-face {
+    font-family: Proxima Nova;
+    font-weight: 500;
+    src: url(/fonts/proxima-nova/500-medium.woff) format("woff");
+  } */
+}
+@layer components {
+	/* Buttons */
+	/* Forms */
+}
+@layer utilities {
+}
+
+/* These styles will not be purged */
